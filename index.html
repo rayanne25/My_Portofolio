@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steeve Rayanne ETHO MBA | Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #e7dfe8;
+            background: #151a1f;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: min(1100px, 90%);
+            margin: auto;
+        }
+
+        header {
+            background: #24022c;
+            position: sticky;
+            top: 0;
+            border-bottom: 1px solid #290329;
+        }
+
+        nav {
+            min-height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            color: #f8fafc;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .nav-links a {
+            color: #f8fafc;
+            text-decoration: none;
+        }
+
+        .cv-button,
+        .primary-button {
+            background: #070707;
+            color: #e7e0e9;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #eef1f4;
+        }
+
+        .eyebrow {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #037ffa;
+            font-size: 0.9rem;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .skills span {
+            background: #280331;
+            color: #f8fafc;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: #2d013b;
+            padding: 20px;
+            border-radius: 8px;
+            color: #f8fafc;
+        }
+
+        .project-card a,
+        .social-links a {
+            color: #037ef8;
+            text-decoration: none;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #2e012e;
+            color: #f8fafc;
+        }
+
+        .profile-photo {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .profile-photo {
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-photo:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 15px 0;
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <a class="logo" href="#">Steeve Rayanne ETHO MBA</a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a class="cv-button" href="Steeve Rayanne ETHO MBA.pdf" target="_blank">View CV</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <a href="c:\Users\HP\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\EEF2EEB4F813EE762A866995F0EBA5C4E5B066E4\transfers\2026-37\WhatsApp Image 2026-09-12 at 7.20.31 PM.jpeg" target="_blank" title="Click to enlarge the photo">
+                <img class="profile-photo" src="c:\Users\HP\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\EEF2EEB4F813EE762A866995F0EBA5C4E5B066E4\transfers\2026-37\WhatsApp Image 2026-09-12 at 7.20.31 PM.jpeg" alt="Profile Photo">
+            </a>
+
+            <h1>Hello, I'm Steeve Rayanne ETHO MBA.</h1>
+            <p>I am in information technology at AUCA Gishushu and I'm doing software engineering.</p>
+            <a class="primary-button" href="#projects">See my projects</a>
+        </section>
+
+        <section id="about" class="section container">
+            <p class="eyebrow">About Me</p>
+            <p>
+                I am a software engineering student passionate about sports, music and especially cars. Aged 23, I try to live as much as possible and enjoy the benefits of life by sometimes doing outdoor activities such as cycling or electric scooter.
+            </p>
+
+        <section id="projects" class="section container">
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects I worked on</h2>
+            <div class="project-grid">
+                <article class="project-card">
+        <article class="project-card">
+            <h3>DriveEase Car Rental System</h3>
+            <p>
+                DriveEase is a modern car rental company that manages vehicle rentals, customer records, bookings, payments, and fleet management services. The company allows customers to rent vehicles online while administrators and staff members manage all operational activities.
+The system is designed to improve efficiency, reduce paperwork, and automate the daily operations of the company. Customers can search available vehicles, make reservations, and complete payments electronically. Staff members can manage bookings and customer data, while administrators oversee the entire business process.
+.
+            </p>
+            <a href="https://github.com/rayanne25/DriveEase-Car-Rental-System.git" target="_blank">
+                View project ↗
+            </a>
+        </article>
+            </div>
+        </section>
+
+    <section id="contact" class="section container contact">
+        <h2>Let’s work together</h2>
+        <p>Contact me for projects, internships, or opportunities By entering my GitHub page where you can find my email and my number.</p>
+        <p class="social-links">
+        <a href="https://github.com/rayanne25" target="_blank">GitHub</a>
+        </p>
+    </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Steeve Rayanne ETHO MBA.
+            Built with HTML and CSS.
+        </p>
+    </footer>
+</body>
+</html>
